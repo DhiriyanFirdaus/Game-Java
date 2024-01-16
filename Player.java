@@ -3,7 +3,7 @@ package game;
 public class Player {
 
     String name;
-    int speed, healthPoint, damage, armor;
+    int speed, healthPoint, damage, armor , ability;
 
     void run() {
         System.out.println(name + " is running...");
